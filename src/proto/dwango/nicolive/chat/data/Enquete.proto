@@ -16,6 +16,6 @@ message Enquete {
 
   message Choice {
     string description = 1;
-    optional int32 per_mille = 3;
+    int32 per_mille = 3;
   }
 }

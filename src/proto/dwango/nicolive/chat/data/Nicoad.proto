@@ -17,14 +17,14 @@ message Nicoad {
     message Latest {
       string advertiser = 1;
       int32 point = 2;
-      optional string message = 3;
+      string message = 3;
     }
 
     message Ranking {
       string advertiser = 1;
       int32 rank = 2;
-      optional string message = 3;
-      optional int32 user_rank = 4;
+      string message = 3;
+      int32 user_rank = 4;
     }
   }
 

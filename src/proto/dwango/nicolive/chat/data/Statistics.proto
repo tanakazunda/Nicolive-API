@@ -4,8 +4,8 @@ package dwango.nicolive.chat.data;
 
 
 message Statistics {
-  optional int64 viewers = 1;
-  optional int64 comments = 2;
-  optional int64 ad_points = 3;
-  optional int64 gift_points = 4;
+  int64 viewers = 1;
+  int64 comments = 2;
+  int64 ad_points = 3;
+  int64 gift_points = 4;
 }

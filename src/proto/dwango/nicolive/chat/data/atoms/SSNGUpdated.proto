@@ -10,9 +10,9 @@ message SSNGUpdated {
   SSNGOperation operation = 1;
   int64 ssng_id = 2;
   ModeratorUserInfo operator = 3;
-  optional SSNGType type = 4;
-  optional string source = 5;
-  optional google.protobuf.Timestamp updatedAt = 6;
+  SSNGType type = 4;
+  string source = 5;
+  google.protobuf.Timestamp updatedAt = 6;
 
   enum SSNGOperation {
     ADD = 0;

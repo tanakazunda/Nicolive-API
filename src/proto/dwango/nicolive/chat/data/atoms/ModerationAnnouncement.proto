@@ -6,7 +6,7 @@ import "google/protobuf/timestamp.proto";
 
 
 message ModerationAnnouncement {
-  optional string message = 1;
+  string message = 1;
   repeated GuidelineItem guidelineItems = 2;
   google.protobuf.Timestamp updatedAt = 3;
 
